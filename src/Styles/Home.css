@@ -1,0 +1,134 @@
+
+.container-fluid{
+    /* margin-top: 3%; */
+    background-color: lightgray;
+}
+.home-card{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 2%;
+}
+.click-card{
+    cursor: pointer;;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    padding-inline:2%;
+    padding: 2rem;
+    width: 100%;
+    /* margin-top: 2%; */
+}
+.home-card-content{
+    margin-bottom: 10%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+}
+.card-right{
+    margin-right: 0%;
+}
+.header-name{
+    font-weight: bold;
+    font-size: 30px;
+}
+.input{
+    outline: none;
+    width: 30%;
+}
+.input-search{
+    outline: none;
+    width: 25rem;
+}
+/* CSS for the dropdown container */
+.dropdown-container {
+    position: relative;
+    display: inline-block;
+  }
+  
+  /* Button style */
+  button {
+    background-color: #3498db;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+  }
+  
+  /* CSS for the dropdown content */
+  .dropdown-content {
+    display: block;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+    z-index: 1;
+  }
+  
+  /* Style the dropdown items (optional) */
+  p {
+    margin-left: 5%;
+  }
+  
+  /* Style when hovering over dropdown items (optional) */
+  p:hover {
+    background-color: #ddd;
+  }
+  .city-dropdown{
+    display: flex;
+    gap: 1rem;
+    align-items: center;
+    text-align: center;
+  }
+  .card-body{
+    padding: 0px;
+  }
+  /* .card-title{
+    padding: 2%;
+  } */
+  .head-conntent{
+    display: flex;
+    justify-content: space-between;
+    padding: 3%;
+  }
+  .edit-modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.6);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 999;
+  }
+  
+  .edit-modal > div {
+    background: white;
+    padding: 20px;
+    width: 55%;
+    box-shadow: 0 2px 5px #000;
+  }
+  .green-dot {
+    width: 10px;
+    height: 10px;
+    background-color: green;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 10px;
+  }
+  
+  .red-dot {
+    width: 10px;
+    height: 10px;
+    background-color: red;
+    border-radius: 50%;
+    display: inline-block;
+    margin-right: 5px;
+    margin-top: 10px;
+  }
+  .filter{
+    margin-top: 1%;
+    display: flex;
+    gap: 1rem;
+  }
