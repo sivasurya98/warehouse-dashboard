@@ -62,16 +62,10 @@
     box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
     z-index: 1;
   }
-  
-  /* Style the dropdown items (optional) */
   p {
     margin-left: 5%;
   }
   
-  /* Style when hovering over dropdown items (optional) */
-  p:hover {
-    background-color: #ddd;
-  }
   .city-dropdown{
     display: flex;
     gap: 1rem;
