@@ -50,7 +50,7 @@ function Home() {
     return (
     <div className="container-fluid">
         <div className='header'>
-            <div style={{ display: 'flex', gap: '7%' }}>
+            <div class="col-sm-10" style={{ display: 'flex', gap: '7%' }}>
               <span className='header-name'>Hi,</span>
               <input type='text' className='input-search' onChange={onsearch} placeholder='Search Your Warehouse...'/>
             </div>
